@@ -14,6 +14,13 @@
 		8502CECF2CB570860010ED8F /* looterArnaudRousselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502CECE2CB570860010ED8F /* looterArnaudRousselTests.swift */; };
 		8502CED92CB570860010ED8F /* looterArnaudRousselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502CED82CB570860010ED8F /* looterArnaudRousselUITests.swift */; };
 		8502CEDB2CB570860010ED8F /* looterArnaudRousselUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502CEDA2CB570860010ED8F /* looterArnaudRousselUITestsLaunchTests.swift */; };
+		855614C42D004D41000CBB2E /* LooterItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855614C32D004D41000CBB2E /* LooterItemView.swift */; };
+		855614C62D005584000CBB2E /* LootDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855614C52D005584000CBB2E /* LootDetailView.swift */; };
+		855614C82D008AE8000CBB2E /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855614C72D008AE8000CBB2E /* ItemDetailsView.swift */; };
+		855614CA2D008B0E000CBB2E /* ItemCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855614C92D008B0E000CBB2E /* ItemCardView.swift */; };
+		85EAACA92CE493AE00136061 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EAACA82CE493AE00136061 /* AddItemView.swift */; };
+		85EAACAC2CE4B96000136061 /* LootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EAACAB2CE4B96000136061 /* LootItem.swift */; };
+		85EAACAE2CE4D23100136061 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EAACAD2CE4D23100136061 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,14 @@
 		8502CED42CB570860010ED8F /* looterArnaudRousselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = looterArnaudRousselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8502CED82CB570860010ED8F /* looterArnaudRousselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = looterArnaudRousselUITests.swift; sourceTree = "<group>"; };
 		8502CEDA2CB570860010ED8F /* looterArnaudRousselUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = looterArnaudRousselUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		855614C32D004D41000CBB2E /* LooterItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterItemView.swift; sourceTree = "<group>"; };
+		855614C52D005584000CBB2E /* LootDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootDetailView.swift; sourceTree = "<group>"; };
+		855614C72D008AE8000CBB2E /* ItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsView.swift; sourceTree = "<group>"; };
+		855614C92D008B0E000CBB2E /* ItemCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardView.swift; sourceTree = "<group>"; };
+		85EAACA82CE493AE00136061 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		85EAACAA2CE4950700136061 /* Answers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Answers.md; sourceTree = "<group>"; };
+		85EAACAB2CE4B96000136061 /* LootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootItem.swift; sourceTree = "<group>"; };
+		85EAACAD2CE4D23100136061 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +89,10 @@
 		8502CEB12CB570820010ED8F = {
 			isa = PBXGroup;
 			children = (
+				85EAACAD2CE4D23100136061 /* Game.swift */,
+				85EAACAB2CE4B96000136061 /* LootItem.swift */,
+				85EAACAA2CE4950700136061 /* Answers.md */,
+				8502CEBF2CB570820010ED8F /* ContentView.swift */,
 				8502CEBC2CB570820010ED8F /* looterArnaudRoussel */,
 				8502CECD2CB570860010ED8F /* looterArnaudRousselTests */,
 				8502CED72CB570860010ED8F /* looterArnaudRousselUITests */,
@@ -94,10 +113,14 @@
 		8502CEBC2CB570820010ED8F /* looterArnaudRoussel */ = {
 			isa = PBXGroup;
 			children = (
+				85EAACA82CE493AE00136061 /* AddItemView.swift */,
+				855614C32D004D41000CBB2E /* LooterItemView.swift */,
 				8502CEBD2CB570820010ED8F /* looterArnaudRousselApp.swift */,
-				8502CEBF2CB570820010ED8F /* ContentView.swift */,
 				8502CEC12CB570860010ED8F /* Assets.xcassets */,
 				8502CEC32CB570860010ED8F /* Preview Content */,
+				855614C52D005584000CBB2E /* LootDetailView.swift */,
+				855614C72D008AE8000CBB2E /* ItemDetailsView.swift */,
+				855614C92D008B0E000CBB2E /* ItemCardView.swift */,
 			);
 			path = looterArnaudRoussel;
 			sourceTree = "<group>";
@@ -257,7 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				855614C82D008AE8000CBB2E /* ItemDetailsView.swift in Sources */,
 				8502CEC02CB570820010ED8F /* ContentView.swift in Sources */,
+				85EAACAE2CE4D23100136061 /* Game.swift in Sources */,
+				85EAACA92CE493AE00136061 /* AddItemView.swift in Sources */,
+				85EAACAC2CE4B96000136061 /* LootItem.swift in Sources */,
+				855614C42D004D41000CBB2E /* LooterItemView.swift in Sources */,
+				855614CA2D008B0E000CBB2E /* ItemCardView.swift in Sources */,
+				855614C62D005584000CBB2E /* LootDetailView.swift in Sources */,
 				8502CEBE2CB570820010ED8F /* looterArnaudRousselApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
